@@ -1,84 +1,66 @@
-/* styles/About.module.css */
-
-/* Section Styles */
+/* Define global styles for the about section */
 .aboutSection {
-  /* background-color: rgba(8, 34, 137, 1); */
-  padding: 6rem 0;
-  color: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+  color: aliceblue;
 }
 
 .aboutContainer {
-  max-width: var(--max-width);
+  max-width: 70%;
   margin: 0 auto;
-  padding: 0 2rem;
 }
 
-/* Content Styles */
-.honesty {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 2rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2rem;
+/* Styling for the main about me content */
+.aboutMe {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
 }
 
-.honesty h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+/* Zoom and shadow on hover */
+.aboutMe:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
 }
 
-.info {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 2rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Styling for section boxes */
+.sectionBox {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.info h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+/* Change background color and shadow on hover */
+.sectionBox:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
 }
 
-.infocontainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+/* Styling for headings */
+.subHeading {
+  color: #ffffff;
 }
 
-.tag ul,
-.desc ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+/* Styling for paragraphs */
+.paragraph {
+  color: #fff9f9;
+  line-height: 1.6;
 }
 
-.tag li,
-.desc li {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Responsive Styles */
-@media (max-width: 700px) {
-  .aboutSection {
-    padding: 4rem 0;
-  }
-
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .aboutContainer {
-    padding: 0 1rem;
-  }
-
-  .honesty,
-  .info {
-    padding: 1.5rem;
-  }
-
-  .honesty h2,
-  .info h2 {
-    font-size: 1.2rem;
-  }
-
-  .infocontainer {
-    grid-template-columns: 1fr;
+    padding: 0 20px;
   }
 }

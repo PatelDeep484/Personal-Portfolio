@@ -30,12 +30,12 @@ const Navbar = () => {
           <ul className={`navbar-nav ml-auto ${styles.navList}`}>
             <li className="nav-item">
               <Link href="/" className="nav-link">
-                Home
+                About Me
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/about" className="nav-link">
-                About
+                Skills
               </Link>
             </li>
             <li className="nav-item">
@@ -57,11 +57,6 @@ const Navbar = () => {
               >
                 Resume
               </a>
-            </li>
-            <li className="nav-item">
-              <Link href="/blog" className="nav-link">
-                Blog
-              </Link>
             </li>
           </ul>
         </div>
