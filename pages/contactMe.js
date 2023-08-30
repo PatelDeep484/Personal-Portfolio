@@ -26,56 +26,49 @@ const Contact = () => {
     <section>
       <Background />
       <Navbar />
-      <br />
-      <br />
-      <br />
-      <br />
       <section id="contact" className={styles.contactSection}>
         <div className={styles.contactContainer}>
           <h2 className={styles.contactTitle}>Contact Me</h2>
-          <section id="contact" className={styles.contactSection}>
-            <div className={styles.additionalContent}>
-              <p>
-                Feel free to reach out if you&apos;re interested in
-                collaborating, have questions, or just want to connect. I&apos;m
-                always excited to engage with fellow developers, tech
-                enthusiasts, and individuals passionate about technology and
-                creativity.
-              </p>
-              <p>
-                Email:{" "}
-                <a href="mailto:pateldeep0295@gmail.com?subject = Feedback&body = Message">
-                  My email is pateldeep0295
-                </a>
-                <br />
-                LinkedIn:
-                <a
-                  href="https://www.linkedin.com/in/deep-patel-a22530229/"
-                  target="_blank"
-                >
-                  My linked In Profile
-                </a>
-                <br />
-                GitHub:{" "}
-                <a href="https://github.com/PatelDeep484" target="_blank">
-                  My GitHub Link
-                </a>
-                <br />
-              </p>
-              <p>
-                I&apos;m also open to discussing opportunities, projects, and
-                shared interests. Whether you&apos;re looking to chat about web
-                development, explore gaming worlds, or simply exchange ideas,
-                don&apos;t hesitate to get in touch.
-              </p>
-              <p>
-                Reach Out Through the Form
-                <br />
-                Want to send a direct message? Fill out the form below, and
-                I&apos;ll get back to you as soon as possible.
-              </p>
-            </div>
-          </section>
+          <div className={styles.additionalContent}>
+            <p>
+              Feel free to reach out if you&apos;re interested in collaborating,
+              have questions, or just want to connect. I&apos;m always excited
+              to engage with fellow developers, tech enthusiasts, and
+              individuals passionate about technology and creativity.
+            </p>
+            <p>
+              Email:{" "}
+              <a href="mailto:pateldeep0295@gmail.com?subject=Feedback&body=Message">
+                My email is pateldeep0295
+              </a>
+              <br />
+              LinkedIn:{" "}
+              <a
+                href="https://www.linkedin.com/in/deep-patel-a22530229/"
+                target="_blank"
+              >
+                My LinkedIn Profile
+              </a>
+              <br />
+              GitHub:{" "}
+              <a href="https://github.com/PatelDeep484" target="_blank">
+                My GitHub Link
+              </a>
+              <br />
+            </p>
+            <p>
+              I&apos;m also open to discussing opportunities, projects, and
+              shared interests. Whether you&apos;re looking to chat about web
+              development, explore gaming worlds, or simply exchange ideas,
+              don&apos;t hesitate to get in touch.
+            </p>
+            <p>
+              Reach Out Through the Form
+              <br />
+              Want to send a direct message? Fill out the form below, and
+              I&apos;ll get back to you as soon as possible.
+            </p>
+          </div>
           <form className={styles.contactForm} onSubmit={handleFormSubmit}>
             <div className={styles.formGroup}>
               <label className={styles.label}>Name:</label>

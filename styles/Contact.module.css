@@ -12,7 +12,6 @@
 
 .contactTitle {
   font-size: 36px;
-  margin-bottom: 20px;
 }
 
 /* Styling for the contact form */
@@ -31,7 +30,8 @@
   margin-right: 10px;
 }
 
-.input {
+.input,
+.textarea {
   width: 50%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -41,13 +41,7 @@
 }
 
 .textarea {
-  width: 50%;
   height: 150px;
-  margin-left: auto;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
 }
 
 .button {
@@ -61,11 +55,12 @@
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
+
 .additionalContent {
-  margin-top: 40px;
   text-align: left;
   line-height: 1.6;
 }
+
 .button:hover {
   background-color: #0056b3;
 }
@@ -76,9 +71,13 @@
   margin-top: 10px;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .contactContainer {
-    padding: 0 20px;
-  }
+/* Styling for links */
+.link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #0056b3;
 }
