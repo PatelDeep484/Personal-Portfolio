@@ -1,13 +1,6 @@
 /* styles/globals.css */
 body {
-  background: linear-gradient(
-    90deg,
-    rgb(3, 0, 51) 0%,
-    rgb(72, 72, 92) 35%,
-    rgb(114, 116, 123) 43%,
-    rgb(244, 244, 244) 100%
-  );
-
+  background: linear-gradient(90deg, #1e1e1e, #4e4e4e);
   color: #ffffff;
   margin: 0;
   padding: 0;

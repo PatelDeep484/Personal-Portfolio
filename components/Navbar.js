@@ -6,7 +6,7 @@ import styles from "../styles/Navbar.module.css";
 const Navbar = () => {
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-dark bg-dark ${styles.navbar}`}
+      className={`navbar navbar-expand-lg navbar-dark bg-dark fixed-top ${styles.navbar}`}
     >
       <div className="container">
         <Link href="/" className="navbar-brand">
@@ -44,7 +44,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact" className="nav-link">
+              <Link href="/contactMe" className="nav-link">
                 Contact
               </Link>
             </li>

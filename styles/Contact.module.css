@@ -1,0 +1,84 @@
+/* Define global styles for the contact section */
+.contactSection {
+  padding: 80px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contactContainer {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.contactTitle {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the contact form */
+.contactForm {
+  margin-top: 10px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: auto;
+}
+
+.textarea {
+  width: 50%;
+  height: 150px;
+  margin-left: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-top: 100px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.additionalContent {
+  margin-top: 40px;
+  text-align: left;
+  line-height: 1.6;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+
+.successMessage {
+  color: #2ecc71;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contactContainer {
+    padding: 0 20px;
+  }
+}

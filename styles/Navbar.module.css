@@ -1,7 +1,7 @@
 /* styles/Navbar.module.css */
 
 .navbar {
-  background-color: transparent !important;
+  background: linear-gradient(90deg, #1e1e1e, #4e4e4e) !important;
   padding: 10px 0;
 }
 
